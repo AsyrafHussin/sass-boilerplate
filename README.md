@@ -49,11 +49,12 @@ $ rm -f .git && rm -rf README.md
 
 ## Compile SASS
 
-* Using command line. [How to intall?](http://sass-lang.com/install)
+* Using command line. <br>[How to intall?](http://sass-lang.com/install)
+   1. Compile <br> 
 ```bash
 $ sass scss/:css/
 ```
-Compile with livereload
+   2. Compile with livereload <br>
 ```bash
 $ sass --watch scss/:css/
 ```  
