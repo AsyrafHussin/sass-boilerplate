@@ -1,6 +1,6 @@
 # sass-boilerplate
 This is the sass boilerplate using 7-1 architecture pattern that I used in my project. <br>
-For more information about this architecture pattern, you can read [Sass Guidelines](http://sass-guidelin.es/#architecture)
+For more information about this architecture pattern, you can read [Guidelines](http://sass-guidelin.es/#architecture)
 
 ## How to use
 * Clone this repo to your project
