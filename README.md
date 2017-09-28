@@ -75,5 +75,8 @@ $ sass --watch sass/:css/
 $ sass --watch sass/:css/ --style compressed
 ```  
 
+## Contributing
+If you spot any errors, typos or missing information, please submit a pull request.
+
 
 
