@@ -15,11 +15,11 @@ $ rm -f .git && rm -rf README.md
 ## Folder Structure
 
     sass/
-    ├── abstracts/                   # Compiled files (alternatively `dist`)
-    ├── base/                    # Documentation files (alternatively `doc`)
-    ├── components/                     # Source files (alternatively `lib` or `app`)
-    ├── layout/                    # Automated tests (alternatively `spec` or `tests`)
-    ├── pages/                   # Tools and utilities
+    ├── abstracts/               
+    ├── base/                    
+    ├── components/              
+    ├── layout/                  
+    ├── pages/                   
     ├── themes/
     ├── vendors/
     └── app.scss
