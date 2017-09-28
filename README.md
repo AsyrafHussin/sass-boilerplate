@@ -43,7 +43,7 @@ $ rm -f .git && rm -rf README.md
     │   └── _default.scss        # Default theme 
     │   ├── _themes.scss         # Main file     
     ├── vendors/
-    │   └── _themes.scss         # Main file     
+    │   └── _vendors.scss        # Main file     
     └── app.scss                 # Main Sass file
 
 
