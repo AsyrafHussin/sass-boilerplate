@@ -13,7 +13,7 @@ $ git clone https://github.com/AsyrafHussin/sass-boilerplate.git
 $ mv sass-boilerplate/sass sass && rm -rf sass-boilerplate
 ```
 
-* Remove .git file and README.md
+* Remove .git and README.md file
 ```bash
 $ rm -f sass/.git && rm -rf sass/README.md
 ```
