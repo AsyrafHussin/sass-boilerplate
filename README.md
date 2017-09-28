@@ -5,12 +5,17 @@ For more information about this architecture pattern, you can read [Guidelines](
 ## How to use
 * Clone this repo to your project
 ```bash
-$ git clone https://github.com/AsyrafHussin/sass-boilerplate.git <project-path>
+$ git clone https://github.com/AsyrafHussin/sass-boilerplate.git
+```
+
+* Update folder name from sass-boilerplate to sass
+```bash
+$ mv sass-boilerplate/sass sass && rm -rf sass-boilerplate
 ```
 
 * Remove .git file and README.md
 ```bash
-$ rm -f .git && rm -rf README.md
+$ rm -f sass/.git && rm -rf sass/README.md
 ```
 
 ## Folder Structure
