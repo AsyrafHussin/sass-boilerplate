@@ -47,6 +47,16 @@ $ rm -f .git && rm -rf README.md
     │   └── _vendors.scss        # Main file     
     └── app.scss                 # Main Sass file
 
+## Compile SASS
+
+* Using command line. [How to intall?](http://sass-lang.com/install)
+```bash
+$ sass scss/:css/
+```
+Compile with livereload
+```bash
+$ sass --watch scss/:css/
+```  
 
 
 
