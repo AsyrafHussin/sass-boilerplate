@@ -22,20 +22,20 @@ $ rm -f sass/.git && rm -rf sass/README.md
 
     sass/
     ├── abstracts/     
-    │   ├── _abstracts.scss      # Main file
+    │   ├── _abstracts.scss      # Main abstracts file
     │   ├── _functions.scss      # Sass Functions
     │   ├── _mixins.scss         # Sass Mixins
     │   ├── _placeholders.scss   # Sass Pleholders
     │   └── _variables.scss      # Sass Variables  
     ├── base/          
-    │   ├── _base.scss           # Main file
+    │   ├── _base.scss           # Main base file
     │   ├── _reset.scss          # Reset/normalize
     │   └── _typography.scss     # Typography rules          
     ├── components/              
-    │   ├── _components.scss     # Main file   
+    │   ├── _components.scss     # Main components file   
     │   └── _buttons.scss        # Buttons 
     ├── layout/        
-    │   ├── _layout.scss         # Layout         
+    │   ├── _layout.scss         # Main layout file         
     │   ├── _footer.scss         # Footer
     │   ├── _forms.scss          # Forms               
     │   ├── _grid.scss           # Grid
@@ -43,13 +43,13 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   ├── _navigation.scss     # Navigation
     │   └── _sidebar.scss        # Sidebar   
     ├── pages/     
-    │   ├── _pages.scss          # Main file     
+    │   ├── _pages.scss          # Main pagesfile     
     │   └── _home.scss           # Home specific styles            
     ├── themes/
     │   └── _default.scss        # Default theme 
-    │   ├── _themes.scss         # Main file     
+    │   ├── _themes.scss         # Main themes file     
     ├── vendors/
-    │   └── _vendors.scss        # Main file     
+    │   └── _vendors.scss        # Main vendors file     
     └── app.scss                 # Main Sass file
 
 ## Compile SASS
