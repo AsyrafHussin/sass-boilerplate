@@ -16,35 +16,35 @@ $ rm -f .git && rm -rf README.md
 
     sass/
     ├── abstracts/     
-    │   ├── _abstracts.scss    # Main file
-    │   ├── _functions.scss    # Sass Functions
-    │   ├── _mixins.scss       # Sass Mixins
-    │   ├── _placeholders.scss # Sass Pleholders
-    │   └── _variables.scss    # Sass Variables  
+    │   ├── _abstracts.scss      # Main file
+    │   ├── _functions.scss      # Sass Functions
+    │   ├── _mixins.scss         # Sass Mixins
+    │   ├── _placeholders.scss   # Sass Pleholders
+    │   └── _variables.scss      # Sass Variables  
     ├── base/          
-    │   ├── _base.scss         # Main file
-    │   ├── _reset.scss        # Reset/normalize
-    │   └── _typography.scss   # Typography rules          
+    │   ├── _base.scss           # Main file
+    │   ├── _reset.scss          # Reset/normalize
+    │   └── _typography.scss     # Typography rules          
     ├── components/              
-    │   ├── _buttons.scss      # Buttons
-    │   └── _components.scss   # Main file    
+    │   ├── _buttons.scss        # Buttons
+    │   └── _components.scss     # Main file    
     ├── layout/                 
-    │   ├── _footer.scss       # Footer
-    │   ├── _forms.scss        # Forms               
-    │   ├── _grid.scss         # Grid
-    │   ├── _header.scss       # Header
-    │   ├── _layout.scss       # Layout
-    │   ├── _navigation.scss   # Navigation
-    │   └── _sidebar.scss      # Sidebar   
+    │   ├── _footer.scss         # Footer
+    │   ├── _forms.scss          # Forms               
+    │   ├── _grid.scss           # Grid
+    │   ├── _header.scss         # Header
+    │   ├── _layout.scss         # Layout
+    │   ├── _navigation.scss     # Navigation
+    │   └── _sidebar.scss        # Sidebar   
     ├── pages/     
-    │   ├── _home.scss         # Home specific styles
-    │   └── _pages.scss        # Main file                 
+    │   ├── _home.scss           # Home specific styles
+    │   └── _pages.scss          # Main file                 
     ├── themes/
-    │   ├── _default.scss      # Default theme
-    │   └── _themes.scss       # Main file     
+    │   ├── _default.scss        # Default theme
+    │   └── _themes.scss         # Main file     
     ├── vendors/
-    │   └── _themes.scss       # Main file     
-    └── app.scss               # Main Sass file
+    │   └── _themes.scss         # Main file     
+    └── app.scss                 # Main Sass file
 
 
 
