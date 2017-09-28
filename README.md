@@ -56,7 +56,7 @@ $ rm -f sass/.git && rm -rf sass/README.md
 
 Using command line. [How to intall?](http://sass-lang.com/install)
 
-   * Compile <br> 
+* Compile <br> 
 ```bash
 $ sass sass/:css/
 ```
@@ -65,11 +65,15 @@ $ sass sass/:css/
 > For compile specific file you can use this command <br>
 > sass sass/app.scss:css/app.css
 
-   * Compile with livereload <br>
+* Compile with livereload <br>
 ```bash
 $ sass --watch sass/:css/
 ```  
-
+  
+* Compile with livereload and minify
+```bash
+$ sass --watch sass/:css/ --style compressed
+```  
 
 
 
