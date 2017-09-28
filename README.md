@@ -49,7 +49,8 @@ $ rm -f .git && rm -rf README.md
 
 ## Compile SASS
 
-* Using command line. <br>[How to intall?](http://sass-lang.com/install)
+* Using command line. [How to intall?](http://sass-lang.com/install)
+
    1. Compile <br> 
 ```bash
 $ sass scss/:css/
