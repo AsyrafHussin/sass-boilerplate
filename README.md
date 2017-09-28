@@ -58,7 +58,7 @@ $ sass sass/:css/
 
 > sass [sass-path]/:[css-path]/ <br>
 > For compile specific file you can use this command <br>
-> sass sass/app.scss:/css/app.css
+> sass sass/app.scss:css/app.css
 
    * Compile with livereload <br>
 ```bash
