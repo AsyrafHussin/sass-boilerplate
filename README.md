@@ -26,22 +26,22 @@ $ rm -f .git && rm -rf README.md
     │   ├── _reset.scss          # Reset/normalize
     │   └── _typography.scss     # Typography rules          
     ├── components/              
-    │   ├── _buttons.scss        # Buttons
-    │   └── _components.scss     # Main file    
-    ├── layout/                 
+    │   ├── _components.scss     # Main file   
+    │   └── _buttons.scss        # Buttons 
+    ├── layout/        
+    │   ├── _layout.scss         # Layout         
     │   ├── _footer.scss         # Footer
     │   ├── _forms.scss          # Forms               
     │   ├── _grid.scss           # Grid
     │   ├── _header.scss         # Header
-    │   ├── _layout.scss         # Layout
     │   ├── _navigation.scss     # Navigation
     │   └── _sidebar.scss        # Sidebar   
     ├── pages/     
-    │   ├── _home.scss           # Home specific styles
-    │   └── _pages.scss          # Main file                 
+    │   ├── _pages.scss          # Main file     
+    │   └── _home.scss           # Home specific styles            
     ├── themes/
-    │   ├── _default.scss        # Default theme
-    │   └── _themes.scss         # Main file     
+    │   └── _default.scss        # Default theme 
+    │   ├── _themes.scss         # Main file     
     ├── vendors/
     │   └── _themes.scss         # Main file     
     └── app.scss                 # Main Sass file
