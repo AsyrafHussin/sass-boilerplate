@@ -11,3 +11,19 @@ $ git clone https://github.com/AsyrafHussin/sass-boilerplate.git <project-path>
 ```bash
 $ rm -f .git && rm -rf README.md
 ```
+
+## Folder Structure
+
+    sass/
+    ├── abstracts/                   # Compiled files (alternatively `dist`)
+    ├── base/                    # Documentation files (alternatively `doc`)
+    ├── components/                     # Source files (alternatively `lib` or `app`)
+    ├── layout/                    # Automated tests (alternatively `spec` or `tests`)
+    ├── pages/                   # Tools and utilities
+    ├── themes/
+    ├── vendors/
+    └── app.scss
+
+
+
+
