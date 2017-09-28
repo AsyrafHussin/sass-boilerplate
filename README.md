@@ -53,12 +53,17 @@ Using command line. [How to intall?](http://sass-lang.com/install)
 
    * Compile <br> 
 ```bash
-$ sass scss/:css/
+$ sass sass/:css/
 ```
+
    * Compile with livereload <br>
 ```bash
-$ sass --watch scss/:css/
+$ sass --watch sass/:css/
 ```  
+> sass [sass-path]/:[css-path]/ <br>
+> For specific file you can use this command <br>
+> sass sass/app.scss:/css/app.css
+
 
 
 
