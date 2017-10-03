@@ -26,6 +26,7 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   ├── _functions.scss      # Sass Functions
     │   ├── _mixins.scss         # Sass Mixins
     │   ├── _placeholders.scss   # Sass Pleholders
+    │   ├── _settings.scss       # Sass Settings
     │   └── _variables.scss      # Sass Variables  
     ├── base/          
     │   ├── _base.scss           # Main base file
