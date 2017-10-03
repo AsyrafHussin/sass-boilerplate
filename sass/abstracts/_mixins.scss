@@ -98,3 +98,12 @@
     -webkit-touch-callout: none;
     user-select: none;
 }
+
+// black-and-white and color to filter image
+@mixin black-and-white() {
+    filter: grayscale(100%);
+}
+
+@mixin color() {
+    filter: grayscale(0%);
+}
