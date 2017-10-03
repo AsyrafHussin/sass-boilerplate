@@ -35,3 +35,12 @@
     @if $weight { font-weight: $weight; }
     @if $lh { line-height: $lh; }
 }
+
+// style input placeholder
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
