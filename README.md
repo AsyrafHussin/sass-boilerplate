@@ -55,7 +55,7 @@ $ rm -f sass/.git && rm -rf sass/README.md
 
 ## Compile SASS
 
-Using command line. [How to intall?](http://sass-lang.com/install)
+1. Using command line. [How to intall?](http://sass-lang.com/install)
 
 * Compile <br> 
 ```bash
@@ -75,6 +75,8 @@ $ sass --watch sass/:css/
 ```bash
 $ sass --watch sass/:css/ --style compressed
 ```  
+
+2. Using [Lavel Mix](https://github.com/JeffreyWay/laravel-mix/blob/master/docs/installation.md)
 
 ## Contributing
 If you spot any errors, typos or missing information, please submit a pull request.
