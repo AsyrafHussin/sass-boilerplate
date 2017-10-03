@@ -155,3 +155,12 @@
 @mixin no-bullets {
     list-style: none;
 }
+
+// no margin no padding
+// div{
+//   @include no-margin-padding;
+// }
+@mixin no-margin-padding {
+        margin: 0;
+        padding: 0;
+}
