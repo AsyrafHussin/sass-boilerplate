@@ -147,3 +147,11 @@
 @mixin color() {
     filter: grayscale(0%);
 }
+
+// no bullet for list
+// ul{
+//   @include no-bullets;
+// }
+@mixin no-bullets {
+    list-style: none;
+}
