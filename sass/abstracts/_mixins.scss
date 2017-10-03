@@ -135,7 +135,7 @@
 // .my-image {
 //    @include black-and-white;
 // }
-@mixin black-and-white() {
+@mixin black-and-white {
     filter: grayscale(100%);
 }
 
@@ -144,7 +144,7 @@
 //            @include color;
 //        }
 // }
-@mixin color() {
+@mixin color {
     filter: grayscale(0%);
 }
 
