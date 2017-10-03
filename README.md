@@ -26,7 +26,6 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   ├── _functions.scss      # Sass Functions
     │   ├── _mixins.scss         # Sass Mixins
     │   ├── _placeholders.scss   # Sass Pleholders
-    │   ├── _settings.scss       # Sass Settings
     │   └── _variables.scss      # Sass Variables  
     ├── base/          
     │   ├── _base.scss           # Main base file
@@ -50,7 +49,8 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   └── _default.scss        # Default theme 
     │   ├── _themes.scss         # Main themes file     
     ├── vendors/
-    │   └── _vendors.scss        # Main vendors file     
+    │   └── _vendors.scss        # Main vendors file   
+    ├── _settings.scss           # Sass Settings  
     └── app.scss                 # Main Sass file
 
 ## Compile SASS
