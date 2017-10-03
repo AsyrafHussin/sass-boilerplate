@@ -1,4 +1,7 @@
 // center block elemet
+//  p{
+//    @include push--auto;
+// }
 @mixin push--auto {
     margin: { 
         left: auto;
