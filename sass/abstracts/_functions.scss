@@ -1,3 +1,9 @@
+// function to dealing with color
+// a {
+//    &:hover {
+//        color: darker($red);
+//    }
+// }
 @function darkest( $color )     { @return darken($color,20%); }
 @function darker( $color )      { @return darken($color,13.333%); }
 @function dark( $color )        { @return darken($color,6.667%); }
