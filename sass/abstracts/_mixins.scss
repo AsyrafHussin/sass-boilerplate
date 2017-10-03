@@ -22,6 +22,9 @@
 }        
 
 // create scalable elements (usually images / background images) that maintain a ratio.
+// div {
+//    @include responsive-ratio(16,9);
+// }
 @mixin responsive-ratio($x,$y, $pseudo: false) {
     $padding: unquote( ( $y / $x ) * 100 + '%' );
     @if $pseudo {
