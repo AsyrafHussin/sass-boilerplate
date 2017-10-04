@@ -76,7 +76,7 @@ $ sass --watch sass/:css/
 $ sass --watch sass/:css/ --style compressed
 ```  
 
-2. Using [Lavel Mix](https://github.com/JeffreyWay/laravel-mix/blob/master/docs/installation.md)
+2. Using [Laravel Mix](https://github.com/JeffreyWay/laravel-mix/blob/master/docs/installation.md)
 
 ## Contributing
 If you spot any errors, typos or missing information, please submit a pull request.
