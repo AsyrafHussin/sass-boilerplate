@@ -33,6 +33,7 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   └── _typography.scss     # Typography rules          
     ├── components/              
     │   ├── _components.scss     # Main components file   
+    │   ├── _navbar.scss         # Navbar   
     │   └── _buttons.scss        # Buttons 
     ├── layout/        
     │   ├── _layout.scss         # Main layout file         
