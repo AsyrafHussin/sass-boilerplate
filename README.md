@@ -39,7 +39,7 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   ├── _layout.scss         # Main layout file         
     │   ├── _footer.scss         # Footer
     │   ├── _forms.scss          # Forms               
-    │   └── _grid.scss        # Grid   
+    │   └── _grid.scss           # Grid   
     ├── pages/     
     │   ├── _pages.scss          # Main pagesfile     
     │   └── _home.scss           # Home specific styles            
