@@ -75,7 +75,7 @@ $ sass --watch sass/:css/ --style compressed
 ```  
 
 2. Using [Laravel Mix](https://github.com/JeffreyWay/laravel-mix/blob/master/docs/installation.md)
-> (Frontend-Boilerplate)(https://github.com/AsyrafHussin/frontend-boilerplate) for sass boilerplate + Laravel-mix 
+> [Frontend-Boilerplate](https://github.com/AsyrafHussin/frontend-boilerplate) for sass boilerplate + Laravel-mix 
 
 3. Using [Gulp-Sass](https://github.com/dlmanning/gulp-sass)
 
