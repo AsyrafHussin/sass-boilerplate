@@ -21,12 +21,6 @@ $ rm -f sass/.git && rm -rf sass/README.md
 ## Folder Structure
 
     sass/
-    ├── abstracts/     
-    │   ├── _abstracts.scss      # Main abstracts file
-    │   ├── _functions.scss      # Sass Functions
-    │   ├── _mixins.scss         # Sass Mixins
-    │   ├── _placeholders.scss   # Sass Pleholders
-    │   └── _variables.scss      # Sass Variables  
     ├── base/          
     │   ├── _base.scss           # Main base file
     │   ├── _reset.scss          # Reset/normalize
@@ -35,6 +29,12 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   ├── _components.scss     # Main components file   
     │   ├── _navbar.scss         # Navbar   
     │   └── _buttons.scss        # Buttons 
+    ├── helpers/     
+    │   ├── _helpers.scss        # Main helpers file
+    │   ├── _functions.scss      # Sass Functions
+    │   ├── _mixins.scss         # Sass Mixins
+    │   ├── _placeholders.scss   # Sass Pleholders
+    │   └── _variables.scss      # Sass Variables  
     ├── layout/        
     │   ├── _layout.scss         # Main layout file         
     │   ├── _footer.scss         # Footer
