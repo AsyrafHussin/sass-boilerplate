@@ -51,7 +51,7 @@ $ rm -f sass/.git && rm -rf sass/README.md
     ├── _settings.scss           # Sass Settings  
     └── app.scss                 # Main Sass file
 
-## Compile SASS
+## Compile SASS to CSS
 
 1. Using command line. [How to intall?](http://sass-lang.com/install)
 
