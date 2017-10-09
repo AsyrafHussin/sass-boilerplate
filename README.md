@@ -76,6 +76,8 @@ $ sass --watch sass/:css/ --style compressed
 
 2. Using [Laravel Mix](https://github.com/JeffreyWay/laravel-mix/blob/master/docs/installation.md)
 
+3. Using [Gulp-Sass](https://github.com/dlmanning/gulp-sass)
+
 ## Contributing
 If you spot any errors, typos or missing information, please submit a pull request.
 
