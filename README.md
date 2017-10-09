@@ -41,7 +41,6 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   ├── _forms.scss          # Forms               
     │   ├── _grid.scss           # Grid
     │   ├── _header.scss         # Header
-    │   ├── _navigation.scss     # Navigation
     │   └── _sidebar.scss        # Sidebar   
     ├── pages/     
     │   ├── _pages.scss          # Main pagesfile     
