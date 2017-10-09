@@ -78,6 +78,8 @@ $ sass --watch sass/:css/ --style compressed
 
 3. Using [Gulp-Sass](https://github.com/dlmanning/gulp-sass)
 
+4. Using [Grunt-Sass](https://github.com/sindresorhus/grunt-sass)
+
 ## Contributing
 If you spot any errors, typos or missing information, please submit a pull request.
 
