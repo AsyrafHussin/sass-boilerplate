@@ -217,3 +217,74 @@
   -o-transition: $args;
   transition: $args;
 }
+
+
+// box-shadow
+// div {
+//  width: 50px
+//  height: 50px;
+//  @include box-shadow(10px 10px 5px 0px rgba(0,0,0,0.75));
+// }
+@mixin box-shadow($input: 0) {
+    -webkit-box-shadow: $input;
+    -moz-box-shadow: $input;
+    box-shadow: $input;
+}
+
+
+// box-sizing
+// *, *:before, *:after {
+//  @include box-sizing()
+// }
+@mixin box-sizing($string: border-box) {
+    -webkit-box-sizing: $string;
+    -moz-box-sizing: $string;
+    -ms-box-sizing: $string;
+    -o-box-sizing: $string;
+    box-sizing: $string;
+}
+
+// clearfix - use for clear after or before float: left or right
+// div {
+//  @include clearfix()
+// }
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin optional-at-root($sel) {
+    @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+        @content;
+    }
+}
+
+// placeholder
+// input {
+//  @include placeholder {
+//      color: black;
+//  }
+// }
+@mixin placeholder {
+    @include optional-at-root('::-webkit-input-placeholder') {
+        @content;
+    }
+    @include optional-at-root(':-moz-placeholder') {
+        @content;
+    }
+    @include optional-at-root('::-moz-placeholder') {
+        @content;
+    }
+    @include optional-at-root(':-ms-input-placeholder') {
+        @content;
+    }
+}
+
+
+
