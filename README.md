@@ -44,9 +44,10 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   ├── _pages.scss          # Main pagesfile     
     │   └── _home.scss           # Home specific styles            
     ├── themes/
-    │   └── _default.scss        # Default theme 
-    │   ├── _themes.scss         # Main themes file     
+    │   ├── _default.scss        # Default theme 
+    │   └──_themes.scss         # Main themes file     
     ├── vendors/
+    │   ├── _normalize.scss      # Normalize
     │   └── _vendors.scss        # Main vendors file   
     ├── _settings.scss           # Sass Settings  
     └── app.scss                 # Main Sass file
