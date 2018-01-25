@@ -29,6 +29,7 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   └── _variables.scss      # Sass Variables  
     ├── base/          
     │   ├── _base.scss           # Main base file
+    │   ├── _animations.scss     # Animations/Keyframes
     │   ├── _reset.scss          # Reset/normalize
     │   └── _typography.scss     # Typography rules          
     ├── components/              
@@ -45,7 +46,7 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   └── _home.scss           # Home specific styles            
     ├── themes/
     │   ├── _default.scss        # Default theme 
-    │   └──_themes.scss         # Main themes file     
+    │   └── _themes.scss         # Main themes file     
     ├── vendors/
     │   ├── _normalize.scss      # Normalize
     │   └── _vendors.scss        # Main vendors file   
