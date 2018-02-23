@@ -34,13 +34,13 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   └── _typography.scss     # Typography rules          
     ├── components/              
     │   ├── _components.scss     # Main components file   
-    │   ├── _navbar.scss         # Navbar   
     │   └── _buttons.scss        # Buttons 
     ├── layout/        
     │   ├── _layout.scss         # Main layout file         
     │   ├── _footer.scss         # Footer
-    │   ├── _forms.scss          # Forms               
-    │   └── _grid.scss           # Grid   
+    │   ├── _forms.scss          # Forms    
+    │   ├── _grid.scss           # Grid              
+    │   └── _navbar.scss         # Navbar   
     ├── pages/     
     │   ├── _pages.scss          # Main pagesfile     
     │   └── _home.scss           # Home specific styles            
