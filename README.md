@@ -40,7 +40,8 @@ $ rm -f sass/.git && rm -rf sass/README.md
     │   ├── _footer.scss         # Footer
     │   ├── _forms.scss          # Forms    
     │   ├── _grid.scss           # Grid              
-    │   └── _navbar.scss         # Navbar   
+    │   ├── _navbar.scss         # Navbar   
+    │   └── _sidebar.scss        # Sidebar   
     ├── pages/     
     │   ├── _pages.scss          # Main pagesfile     
     │   └── _home.scss           # Home specific styles            
